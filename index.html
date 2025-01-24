@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div>
+        <h1 >Gestion de tareas</h1>
+    <h2>Agregar tarea</h2>
+    <form id="taskForm">
+        <label for="tarea">Tarea: </label>
+        <input type="text" id="tarea" placeholder="Escribe una tarea..." required>
+        <br><br>
+        <label for="estado"> Estado: </label>
+        <input type="text" id="estado" placeholder="Estado de la tarea" required><br><br>
+        <label for="fechaIni"> Fecha de inicio:</label>
+        <input type="date" id="fechaIni"  required><br><br>
+        <label for="fechaFin"> Fecha finaliza:</label>
+        <input type="date" id="fechaFin" required><br><br>
+        <button id="boton" type="submit">Agregar</button>
+        
+        <button id="botonMostrar" type="submit">mostrar tareas</button>
+    </form>
+    </div>
+    <div class="pendiente">
+        <h1>PENDIENTES</h1> 
+
+    </div>
+    <div class="proceso" >
+        <h1 >PROCESO</h1>
+
+    </div>
+    <div class="completadas">
+        <H1>COMPLETADAS</H1>
+    </div>
+    <script src="inicio.js"></script>
+</body>
+</html>

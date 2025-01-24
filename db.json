@@ -1,0 +1,71 @@
+{
+  "tareas": [
+    {
+      "id": 1,
+      "tareaIni": "examen",
+      "estado": "proceso",
+      "fechainicio": "23-01-2024",
+      "fechatermina": "24-01-2024"
+    },
+    {
+      "tareaIni": "tarea",
+      "estadoIni": "completada",
+      "fechaInicio": "2025-01-24",
+      "fechaFinaliza": "2025-01-27",
+      "id": 2
+    },
+    {
+      "tareaIni": "tarea",
+      "estadoIni": "pendiente",
+      "fechaInicio": "2025-01-24",
+      "fechaFinaliza": "2025-01-27",
+      "id": 3
+    },
+    {
+      "tarea": "tarea",
+      "estado": "proceso",
+      "fechaInicio": "2025-01-24",
+      "fechaTermina": "2025-01-27",
+      "id": 4
+    },
+    {
+      "tarea": "tarea",
+      "estado": "proceso",
+      "fechaInicio": "2025-01-24",
+      "fechaTermina": "2025-01-27",
+      "id": 5
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "sebastian",
+      "contraseña": 123
+    },
+    {
+      "id": 2,
+      "nombre": "nicolas",
+      "contraseña": 1234
+    },
+    {
+      "nombre": "dsafdsa",
+      "contrasena": "sadas",
+      "id": 3
+    },
+    {
+      "nombre": "dsafdsa",
+      "contrasena": "",
+      "id": 4
+    },
+    {
+      "nombre": "dsafdsa",
+      "contrasena": "",
+      "id": 5
+    },
+    {
+      "nombre": "dsafdsa",
+      "contrasena": "",
+      "id": 6
+    }
+  ]
+}

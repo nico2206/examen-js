@@ -1,0 +1,30 @@
+body{
+    background-image: url(/img/blank-1868502_1280.jpg);
+}
+.pendiente{
+    border: 2px solid black;
+    width: 30vh;
+    height: 50vh;
+    position: relative;
+    left: 2vh;
+    top: 2vh;
+}
+.completadas{
+    border: 2px solid black;
+    width: 30vh;
+    position: relative;
+    left: 80vh;
+    height: 50vh;
+    bottom: 98vh;
+    
+
+}
+.proceso{
+    border: 2px solid black;
+    width: 30vh;
+    position: relative;
+    bottom: 48vh;
+    left: 38vh;
+    height: 50vh;
+
+}
